@@ -1,0 +1,46 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/fund/fund",
+        "pages/login/login",
+        "pages/information/information",
+        "pages/fundDetail/fundDetail",
+        "pages/help/help",
+        "pages/activity_details/activity_details",
+        "pages/fundInformation/fundInformation",
+        "pages/fundclassdetail/fundclassdetail",
+        "pages/myactivity/myactivity"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#57bc72",
+        "navigationBarTitleText": "灰雀",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "backgroundColor": "#fff",
+        "borderStyle": "white",
+        "color": "#676767",
+        "selectedColor": "#57bc72",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "活动",
+                "iconPath": "pages/images/logo_grey.png",
+                "selectedIconPath": "pages/images/logo_0.png"
+            },
+            {
+                "pagePath": "pages/fund/fund",
+                "text": "基金",
+                "iconPath": "pages/images/classification_grey_0.png",
+                "selectedIconPath": "pages/images/classification_0.png"
+            },
+            {
+                "pagePath": "pages/login/login",
+                "text": "我的",
+                "iconPath": "pages/images/mine_grey.png",
+                "selectedIconPath": "pages/images/mine_green.png"
+            }
+        ]
+    }
+}
